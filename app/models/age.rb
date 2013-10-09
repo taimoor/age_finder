@@ -1,4 +1,5 @@
 class Age 
+  include ActiveModel::Validations
 
   class << self
     def format_converter(birth_date, format)
